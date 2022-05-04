@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 function Project() {
-    const projects = [{ name: "Driver&Order Tracking", url: "./images/projects/delicious-things.png" }, { name: "Delicious Things", url: "./images/projects/order-tracking.png" }, { name: "Not Kutusu", url: "./images/projects/delicious-things.png" }, { name: "Nostalji Sekerleme", url: "./images/projects/order-tracking.png" }, { name: "Movie Hub", url: "./images/projects/delicious-things.png" }]
+    const projects = [{ name: "Napoli's Pizza", url: "./images/projects/pizza.png" }, { name: "Movie Hub", url: "./images/projects/movie.png" }, { name: "Music Player", url: "./images/projects/music.gif" }, { name: "Exchange Rates Api", url: "./images/projects/exchange.gif" }, { name: "Calculator", url: "./images/projects/calculator.png" }]
     return (
         // <Container fluid text-center id="project" className="my-5 p-5" style={{ backgroundColor: "rgb(167,237,219)" }} >
         <Container fluid text-center id="project" className="my-5 p-5 bg-dark">
@@ -10,8 +10,9 @@ function Project() {
             <Row xs={1} md={2} lg={3} className="g-4 align-items-md-center d-flex flex-row flex-nowrap" id="project" style={{ overflow: "scroll", scrollbarWidth: "none" }} >
                 {projects.map((project, idx) => (
                     <Col>
-                        <Card className="border-0">
+                        <Card className="border-0 w-100 h-100">
                             <Card.Img
+                                className="card-img"
                                 variant="top"
                                 src={project.url}
                             />

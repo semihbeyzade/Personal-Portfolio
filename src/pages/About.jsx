@@ -41,7 +41,7 @@ function About() {
                                 🔭 I’m currently a Web Development student & tutor at DCI - Digital Career Institute.<br />
                                 📚 I’m currently learning backend web development using NodeJS, ExpressJS and MongoDB.<br />
                                 👯 I’m looking for a Frontend development job.<br />
-                                📫 How to reach me: <a href="https://www.linkedin.com/in/semih-beyzade-örscelik/" target="_blank" rel="noreferrer">Linkedin</a> <a href="mailto:yykoca.08@gmail.com">Gmail</a>
+                                📫 How to reach me: <a href="https://www.linkedin.com/in/semih-beyzade-örscelik/" target="_blank" rel="noreferrer">Linkedin</a> <a href="mailto:semihb.orscelik0@gmail.com">Gmail</a>
 
                             </Card.Text>
                             {/* <Button variant="outline-dark mt-2">Download My Cv</Button> */}
