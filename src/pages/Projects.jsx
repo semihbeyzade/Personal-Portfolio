@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 function Project() {
-    const projects = [{ name: "Napoli's Pizza", url: "./images/projects/pizza.png" }, { name: "Movie Hub", url: "./images/projects/movie.png" }, { name: "Music Player", url: "./images/projects/music.gif" }, { name: "Exchange Rates Api", url: "./images/projects/exchange.gif" }, { name: "Calculator", url: "./images/projects/calculator.png" }]
+    const projects = [{ name: "Napoli's Pizza", url: "./images/projects/pizza.png" }, { name: "Movie Hub", url: "./images/projects/movie.png" }, { name: "Exchange Rates Api", url: "./images/projects/exchange.gif" }, { name: "Calculator", url: "./images/projects/calculator.png" }]
     return (
         // <Container fluid text-center id="project" className="my-5 p-5" style={{ backgroundColor: "rgb(167,237,219)" }} >
         <Container fluid text-center id="project" className="my-5 p-5 bg-dark">
